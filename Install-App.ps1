@@ -9,7 +9,7 @@
     įdiegti paketą iš naujo be priklausomybių. Ši versija yra pritaikyta veikti
     visiškai automatizuotai, be jokios vartotojo sąveikos.
 .NOTES
-    Versija: 3.2
+    Versija: 0.4
 #>
 
 param(
