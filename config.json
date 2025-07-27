@@ -12,7 +12,7 @@
     "Port": 587,
     "UseSsl": true,
     "From": "zemunas123@gmail.com",
-    "To": "zemunas123@gmail.com",
+    "To": "zemunas1@gmail.com",
     "SecureCredentialPath": "C:\\ProgramData\\UWP_Update_Secrets\\secure_smtp_credential.xml"
   }
 }
