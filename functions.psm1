@@ -4,7 +4,7 @@
 .SYNOPSIS
     Pagalbinių funkcijų modulis, skirtas UWP programos atnaujinimo procesui valdyti.
 .NOTES
-    Versija: 3.1
+    Versija: 0.8
 #>
 
 Set-StrictMode -Version Latest
