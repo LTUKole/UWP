@@ -1,0 +1,18 @@
+{
+  "AppName": "Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe",
+  "DesiredVersion": "6.1.4.0",
+  "UpdatePackageUrl": "https://drive.usercontent.google.com/download?id=1ZprToUXOHPMN41NSxIUwjCQ7sMsrn5Pf&export=download&authuser=0&confirm=t&uuid=d5ac750b-2635-44de-963d-fd6f3b61808a&at=AN8xHoqHUTw-T_3_Xz05l0UMJFrL:1753652160934",
+  "InstallerScriptPath": "Install-App.ps1",
+  "LogFilePath": "C:\\ProgramData\\Logs\\UWP_Update.log",
+  "SecureZipPasswordPath": "C:\\ProgramData\\UWP_Update_Secrets\\secure_zip_password.txt",
+  "RequiredPSVersion": "7.4.0",
+  "EmailSettings": {
+    "Enabled": false,
+    "SmtpServer": "smtp.office365.com",
+    "Port": 587,
+    "UseSsl": true,
+    "From": "zemunas123@gmail.com",
+    "To": "zemunas123@gmail.com",
+    "SecureCredentialPath": "C:\\ProgramData\\UWP_Update_Secrets\\secure_smtp_credential.xml"
+  }
+}
