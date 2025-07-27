@@ -1,7 +1,5 @@
 # UWP
-# ==============================================================================
 # "Saugaus" slaptažodžio kurimas į faila. [StickyNotes slaptažodis- VLC-UWP-Test!]
-# ==============================================================================
 
 # Pirmiausia sukurkite saugų katalogą (jei jo nėra)
 New-Item -Path "C:\ProgramData\UWP_Update_Secrets" -ItemType Directory -Force
@@ -13,9 +11,7 @@ Read-Host -Prompt "Įveskite ZIP archyvo slaptažodį" -AsSecureString | Convert
 $credential = Get-Credential
 $credential | Export-CliXml -Path "C:\ProgramData\UWP_Update_Secrets\secure_smtp_credential.xml"
 
-# ==============================================================================
 # Skripto paleidimas
-# ==============================================================================
 
 # PowerShell nurodome atsiusto ir išarchivuoto failo vieta.
 cd "C:\Users\UserName\Downloads\UWP_Script"
@@ -23,9 +19,7 @@ cd "C:\Users\UserName\Downloads\UWP_Script"
 # Paleidžiamas skriptas.
 .\Update-UWPApp.ps1
 
-# ==============================================================================
 # Skripto automatizacija
-# ==============================================================================
 
 # Skripto automatizacija vyksta per Task Scheduler...
 taskschd.msc
